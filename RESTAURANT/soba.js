@@ -54,3 +54,26 @@ function changeLanguage(lang) {
     var 전화번호 = document.getElementById('전화번호');
     var 길안내 = document.getElementById('길안내');
 }
+//슬라이드 애니메이션
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  slidesPerView: 3,
+  spaceBetween: 0,
+  slidesPerGropu: 3,
+  loop: true,
+
+  loopFillGroupwithBlank: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
