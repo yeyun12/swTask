@@ -47,3 +47,18 @@ p {
 .lan:active {
     color: rgb(81, 182, 182);
 }
+
+.topbar {
+    background-color: #ffffff;
+    justify-content: end;
+    display: flex;
+    height: 30px;
+
+}
+
+.middlebar {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    display: flex;
+    align-content: center;
+}
