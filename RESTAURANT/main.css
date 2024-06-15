@@ -102,3 +102,138 @@ input[type=search] {
 :root {
     --swiper-theme-color: rgb(231, 239, 255);
 }
+
+/*메인 글 div*/
+.main-text {
+    width: 900px;
+    height: 745.2;
+    margin: auto;
+    /* border: solid 1px gray;  */
+
+}
+
+/*메인 타이틀*/
+.title {
+    background-color: #ffffff;
+    width: 900px;
+    height: 130px;
+}
+
+.따봉 {
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.child {
+    display: inline-block;
+}
+
+#추천 {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    width: 50px;
+    line-height: 25px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 16px;
+
+}
+
+.score {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 46, 46);
+
+}
+
+#main-name {
+    margin-bottom: 0px;
+}
+
+#sub-name {
+    color: gray;
+    margin: 0;
+}
+
+/*본문 글*/
+.contents-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+    margin-bottom: 20px;
+    /* justify-content: space-between; */
+}
+
+.explanation {
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    width: 860px;
+    height: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+#소개 {
+    margin-bottom: 8px;
+}
+
+/* 본문 설명 */
+.information {
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    width: 55%;
+    height: 450px;
+    padding-left: 20px;
+    padding-right: 10px;
+    /* margin-right: 10px;  */
+}
+
+.information h2 {
+    width: 120px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    color: rgb(70, 70, 70);
+}
+
+.information h3 {
+    width: 180px;
+}
+
+.menu {
+    margin-left: 176px;
+    margin-top: 0;
+}
+
+
+/* 지도 */
+.map {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px lightgray;
+    border-radius: 10px;
+    width: 45%;
+    height: 450px;
+
+    /* padding-left: 20px;
+    padding-right: 10px; */
+}
+
+.map-btn {
+    background-color: rgb(101, 235, 145);
+    height: 12%;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-btn:hover {
+    background-color: rgb(106, 241, 88);
+}
