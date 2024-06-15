@@ -71,3 +71,34 @@ p {
     background-size: 80px 80px;
     background-image: url(/image/동식.png);
 }
+
+input[type=search] {
+    margin-top: 15px;
+    margin-left: 8px;
+    width: 330px;
+    height: 50px;
+    background-color: rgb(243, 243, 243);
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    padding: 20px;
+}
+
+.back {
+    background-color: #fce6e6;
+}
+
+/*슬라이드 이미지 CSS*/
+.swiper {
+    width: 900px;
+    height: 300px;
+
+}
+
+.swiper-scrollbar {
+    background: none;
+}
+
+:root {
+    --swiper-theme-color: rgb(231, 239, 255);
+}
